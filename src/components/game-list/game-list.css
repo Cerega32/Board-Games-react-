@@ -1,0 +1,17 @@
+.game-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.ant-pagination {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,8 @@
+.cart-page__badge {
+  justify-content: flex-end;
+}
+
+.cart-page .ant-avatar {
+  width: 64px;
+  height: 64px;
+}

@@ -1,0 +1,38 @@
+.item-page {
+  display: flex;
+  justify-content: center;
+}
+
+.item__desc{
+  text-align: center;
+}
+
+.item__desc h2{
+  margin-bottom: 30px;
+}
+
+
+.item__desc img{
+  margin-bottom: 30px;
+}
+
+
+.item__desc p{
+  text-align: left;
+  font-size: 16px;
+}
+
+.item-page__sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-page__price {
+  margin-bottom: 40px;
+  padding: 0 15px;
+  display: inline-block;
+  border-radius: 30px;
+  font-size: 32px;
+  color: #314a2c;
+}

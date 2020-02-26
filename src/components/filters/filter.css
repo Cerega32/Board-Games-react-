@@ -1,0 +1,44 @@
+.filters {
+  font-size: 18px;
+}
+
+.filters strong {
+  margin: 15px 0 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.filters__checkbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.ant-radio-button-wrapper {
+  font-size: 16px;
+}
+
+.ant-checkbox-wrapper + .ant-checkbox-wrapper {
+  margin-left: 0;
+}
+
+.ant-checkbox-wrapper {
+  font-size: 16px;
+}
+
+.range {
+  margin-top: 30px;
+}
+
+.ant-input-number {
+  margin: 0;
+  width: 70px;
+}
+
+.ant-input-number-input {
+  padding: 0 20px 0 11px; 
+}
+
+.range__input {
+  display: flex;
+  justify-content: space-between;
+}

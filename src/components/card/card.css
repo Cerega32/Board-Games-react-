@@ -1,0 +1,58 @@
+.card-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 290px;
+}
+
+
+.ant-card-cover {
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.ant-card-cover img{
+  max-height: 200px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.card-price {
+  margin-top: auto;
+  font-size: 20px;
+}
+
+.ant-card-body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__title {  
+  cursor: pointer;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+}
+
+.card__title:hover {
+  color: #66cdaa
+}
+
+.ant-btn {
+  padding: 7px 20px;
+  height: auto;
+  border-radius: 3px;
+  background: rgb(220,220,220);
+  color: #000;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.item__buy {
+  color: #096dd9;
+  border-color: #096dd9;
+  background: #fff;
+}
